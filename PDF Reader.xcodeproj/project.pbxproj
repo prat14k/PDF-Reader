@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB510F402080850D00EFE695 /* Text2SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB510F3F2080850D00EFE695 /* Text2SpeechViewController.swift */; };
+		BB7C9802207A0B9E0029F0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C9801207A0B9E0029F0FE /* AppDelegate.swift */; };
+		BB7C9804207A0B9E0029F0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C9803207A0B9E0029F0FE /* ViewController.swift */; };
+		BB7C9807207A0B9E0029F0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7C9805207A0B9E0029F0FE /* Main.storyboard */; };
+		BB7C9809207A0B9F0029F0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7C9808207A0B9F0029F0FE /* Assets.xcassets */; };
+		BB7C980C207A0B9F0029F0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7C980A207A0B9F0029F0FE /* LaunchScreen.storyboard */; };
+		BB7C9814207A0C270029F0FE /* core-ios-developer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB7C9813207A0C270029F0FE /* core-ios-developer.pdf */; };
+		BBB18F85207F80FE0090FD5C /* StanfordLecture11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BBB18F84207F80FE0090FD5C /* StanfordLecture11.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB510F3F2080850D00EFE695 /* Text2SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2SpeechViewController.swift; sourceTree = "<group>"; };
+		BB7C97FE207A0B9E0029F0FE /* PDF Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7C9801207A0B9E0029F0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB7C9803207A0B9E0029F0FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB7C9806207A0B9E0029F0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB7C9808207A0B9F0029F0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7C980B207A0B9F0029F0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB7C980D207A0B9F0029F0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7C9813207A0C270029F0FE /* core-ios-developer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "core-ios-developer.pdf"; sourceTree = "<group>"; };
+		BBB18F84207F80FE0090FD5C /* StanfordLecture11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = StanfordLecture11.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7C97FB207A0B9E0029F0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7C97F5207A0B9E0029F0FE = {
+			isa = PBXGroup;
+			children = (
+				BB7C9800207A0B9E0029F0FE /* PDF Reader */,
+				BB7C97FF207A0B9E0029F0FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7C97FF207A0B9E0029F0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7C97FE207A0B9E0029F0FE /* PDF Reader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7C9800207A0B9E0029F0FE /* PDF Reader */ = {
+			isa = PBXGroup;
+			children = (
+				BB7C9801207A0B9E0029F0FE /* AppDelegate.swift */,
+				BB7C9803207A0B9E0029F0FE /* ViewController.swift */,
+				BB7C9813207A0C270029F0FE /* core-ios-developer.pdf */,
+				BBB18F84207F80FE0090FD5C /* StanfordLecture11.pdf */,
+				BB7C9805207A0B9E0029F0FE /* Main.storyboard */,
+				BB7C9808207A0B9F0029F0FE /* Assets.xcassets */,
+				BB7C980A207A0B9F0029F0FE /* LaunchScreen.storyboard */,
+				BB7C980D207A0B9F0029F0FE /* Info.plist */,
+				BB510F3F2080850D00EFE695 /* Text2SpeechViewController.swift */,
+			);
+			path = "PDF Reader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7C97FD207A0B9E0029F0FE /* PDF Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7C9810207A0B9F0029F0FE /* Build configuration list for PBXNativeTarget "PDF Reader" */;
+			buildPhases = (
+				BB7C97FA207A0B9E0029F0FE /* Sources */,
+				BB7C97FB207A0B9E0029F0FE /* Frameworks */,
+				BB7C97FC207A0B9E0029F0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PDF Reader";
+			productName = "PDF Reader";
+			productReference = BB7C97FE207A0B9E0029F0FE /* PDF Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7C97F6207A0B9E0029F0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Prateek Sharma";
+				TargetAttributes = {
+					BB7C97FD207A0B9E0029F0FE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BB7C97F9207A0B9E0029F0FE /* Build configuration list for PBXProject "PDF Reader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7C97F5207A0B9E0029F0FE;
+			productRefGroup = BB7C97FF207A0B9E0029F0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7C97FD207A0B9E0029F0FE /* PDF Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7C97FC207A0B9E0029F0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB18F85207F80FE0090FD5C /* StanfordLecture11.pdf in Resources */,
+				BB7C980C207A0B9F0029F0FE /* LaunchScreen.storyboard in Resources */,
+				BB7C9809207A0B9F0029F0FE /* Assets.xcassets in Resources */,
+				BB7C9814207A0C270029F0FE /* core-ios-developer.pdf in Resources */,
+				BB7C9807207A0B9E0029F0FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7C97FA207A0B9E0029F0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7C9804207A0B9E0029F0FE /* ViewController.swift in Sources */,
+				BB7C9802207A0B9E0029F0FE /* AppDelegate.swift in Sources */,
+				BB510F402080850D00EFE695 /* Text2SpeechViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB7C9805207A0B9E0029F0FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7C9806207A0B9E0029F0FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB7C980A207A0B9F0029F0FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7C980B207A0B9F0029F0FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7C980E207A0B9F0029F0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB7C980F207A0B9F0029F0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7C9811207A0B9F0029F0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH6F3G6EQZ;
+				INFOPLIST_FILE = "PDF Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prat14k.PDF-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB7C9812207A0B9F0029F0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH6F3G6EQZ;
+				INFOPLIST_FILE = "PDF Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prat14k.PDF-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7C97F9207A0B9E0029F0FE /* Build configuration list for PBXProject "PDF Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7C980E207A0B9F0029F0FE /* Debug */,
+				BB7C980F207A0B9F0029F0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7C9810207A0B9F0029F0FE /* Build configuration list for PBXNativeTarget "PDF Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7C9811207A0B9F0029F0FE /* Debug */,
+				BB7C9812207A0B9F0029F0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB7C97F6207A0B9E0029F0FE /* Project object */;
+}
