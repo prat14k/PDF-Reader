@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BB510F402080850D00EFE695 /* Text2SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB510F3F2080850D00EFE695 /* Text2SpeechViewController.swift */; };
+		BB510F422080C7F300EFE695 /* DocumentsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB510F412080C7F300EFE695 /* DocumentsListController.swift */; };
 		BB7C9802207A0B9E0029F0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C9801207A0B9E0029F0FE /* AppDelegate.swift */; };
-		BB7C9804207A0B9E0029F0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C9803207A0B9E0029F0FE /* ViewController.swift */; };
+		BB7C9804207A0B9E0029F0FE /* DocumentReadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C9803207A0B9E0029F0FE /* DocumentReadController.swift */; };
 		BB7C9807207A0B9E0029F0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7C9805207A0B9E0029F0FE /* Main.storyboard */; };
 		BB7C9809207A0B9F0029F0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7C9808207A0B9F0029F0FE /* Assets.xcassets */; };
 		BB7C980C207A0B9F0029F0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7C980A207A0B9F0029F0FE /* LaunchScreen.storyboard */; };
-		BB7C9814207A0C270029F0FE /* core-ios-developer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB7C9813207A0C270029F0FE /* core-ios-developer.pdf */; };
-		BBB18F85207F80FE0090FD5C /* StanfordLecture11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BBB18F84207F80FE0090FD5C /* StanfordLecture11.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB510F3F2080850D00EFE695 /* Text2SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2SpeechViewController.swift; sourceTree = "<group>"; };
+		BB510F412080C7F300EFE695 /* DocumentsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListController.swift; sourceTree = "<group>"; };
 		BB7C97FE207A0B9E0029F0FE /* PDF Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7C9801207A0B9E0029F0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB7C9803207A0B9E0029F0FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB7C9803207A0B9E0029F0FE /* DocumentReadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentReadController.swift; sourceTree = "<group>"; };
 		BB7C9806207A0B9E0029F0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB7C9808207A0B9F0029F0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7C980B207A0B9F0029F0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB7C980D207A0B9F0029F0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB7C9813207A0C270029F0FE /* core-ios-developer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "core-ios-developer.pdf"; sourceTree = "<group>"; };
-		BBB18F84207F80FE0090FD5C /* StanfordLecture11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = StanfordLecture11.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				BB7C9801207A0B9E0029F0FE /* AppDelegate.swift */,
-				BB7C9803207A0B9E0029F0FE /* ViewController.swift */,
-				BB7C9813207A0C270029F0FE /* core-ios-developer.pdf */,
-				BBB18F84207F80FE0090FD5C /* StanfordLecture11.pdf */,
+				BB7C9803207A0B9E0029F0FE /* DocumentReadController.swift */,
 				BB7C9805207A0B9E0029F0FE /* Main.storyboard */,
 				BB7C9808207A0B9F0029F0FE /* Assets.xcassets */,
 				BB7C980A207A0B9F0029F0FE /* LaunchScreen.storyboard */,
 				BB7C980D207A0B9F0029F0FE /* Info.plist */,
 				BB510F3F2080850D00EFE695 /* Text2SpeechViewController.swift */,
+				BB510F412080C7F300EFE695 /* DocumentsListController.swift */,
 			);
 			path = "PDF Reader";
 			sourceTree = "<group>";
@@ -131,10 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB18F85207F80FE0090FD5C /* StanfordLecture11.pdf in Resources */,
 				BB7C980C207A0B9F0029F0FE /* LaunchScreen.storyboard in Resources */,
 				BB7C9809207A0B9F0029F0FE /* Assets.xcassets in Resources */,
-				BB7C9814207A0C270029F0FE /* core-ios-developer.pdf in Resources */,
 				BB7C9807207A0B9E0029F0FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7C9804207A0B9E0029F0FE /* ViewController.swift in Sources */,
+				BB7C9804207A0B9E0029F0FE /* DocumentReadController.swift in Sources */,
 				BB7C9802207A0B9E0029F0FE /* AppDelegate.swift in Sources */,
+				BB510F422080C7F300EFE695 /* DocumentsListController.swift in Sources */,
 				BB510F402080850D00EFE695 /* Text2SpeechViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH6F3G6EQZ;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH6F3G6EQZ;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
