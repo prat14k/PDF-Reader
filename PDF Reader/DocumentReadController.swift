@@ -46,8 +46,6 @@ class DocumentReadController: UIViewController {
         return paths.first
     }()
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

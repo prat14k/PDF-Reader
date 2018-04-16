@@ -21,8 +21,35 @@ class DocumentsListController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        getPDFfiles()
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        DispatchQueue.global(qos: .background).async(execute: { [weak self] in
+            self?.getPDFfiles()
+        })
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(pdfAdded(_:)), name: NSNotification.Name(rawValue: "PDF_ADDED"), object: nil)
+        
+    }
+    
+    
+    @objc func pdfAdded(_ notification : Notification){
+        
+        if let userInfo = notification.userInfo as? [String : String] {
+            if let fileName = userInfo["fileName"] {
+                pdfFilesNames.append(fileName)
+                tableView.insertRows(at: [IndexPath(row: pdfFilesNames.count-1, section: 0)], with: .top)
+            }
+        }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        NotificationCenter.default.removeObserver(self)
     }
     
     
@@ -34,6 +61,8 @@ class DocumentsListController: UIViewController {
             do {
                 let files = try fileManager.contentsOfDirectory(atPath: docDirectory.path)
                 
+                pdfFilesNames.removeAll()
+                
                 for fileName in files {
                     if let ext = fileName.components(separatedBy: ".").last {
                         if ext == "pdf" {
@@ -42,7 +71,9 @@ class DocumentsListController: UIViewController {
                     }
                 }
                 
-                tableView.reloadData()
+                DispatchQueue.main.async(execute: { [weak self] in
+                    self?.tableView.reloadData()
+                })
             }
             catch {
                 print(error)

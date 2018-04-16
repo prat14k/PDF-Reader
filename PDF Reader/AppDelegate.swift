@@ -22,11 +22,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         
+        print("shared")
         
+        if let directory = documentsDirectory {
+            
+            guard let fileName = url.absoluteString.components(separatedBy: "/").last else { return true }
+            
+            let filePath = directory.path.appending("/\(fileName)")
+            
+            if let pdfData = try? Data(contentsOf: url) {
+                FileManager.default.createFile(atPath: filePath, contents: pdfData, attributes: nil)
+                
+                NotificationCenter.default.post(name: NSNotification.Name("PDF_ADDED"), object: nil, userInfo: ["fileName" : fileName])
+            }
+        }
         
         return true
     }
-    
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
